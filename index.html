@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>からあげ天国</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css" media="screen and (min-width:700px)">
+    <link rel="stylesheet" href="./css/style_sp.css" type="text/css" media="screen and (max-width:700px)">
+    
+</head>
+
+<body>
+    <!-- header>.logo+ul>(li>a)*4 -->
+    <header>
+        <div class="logo">LOGO</div>
+        <ul>
+            <li><a href="">TOP</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">PROFILE</a></li>
+            <li><a href="">FAVORITE</a></li>
+        </ul>
+    </header>
+    <!-- article>section#sec$*3 -->
+    <article>
+        <section id="sec1">
+            <div class="container">
+                <h1>からあげ大作戦</h1>
+            </div>
+        </section>
+
+        <!-- ツイッターリンク -->
+        <a href="javascript:twitText()"><img src="http://www.shurey.com/img/twitter-a.png" alt="Send to Twitter" width="61" height="23"></a>
+        <h1 id ="h1-node">JSでDOMを操作してみるよ</h1>
+        <button id="btn">テキスト変更ボタン</button>
+
+        <section id="sec2">
+            <!-- h1{ABOUT}+p -->
+            <h1>ABOUT</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, laboriosam sequi minus est mollitia veritatis soluta accusantium iure aspernatur excepturi, assumenda blanditiis veniam earum sit praesentium, temporibus nihil delectus similique deserunt rem optio impedit ipsam vel magni! Beatae maxime vel consequatur, eaque id deserunt! Dolore iusto nam, dolor consectetur eos odio quibusdam quia quos ipsum neque similique quidem consequatur quae! Ullam cum alias minima dolorem praesentium laborum quis itaque consectetur ipsa beatae culpa necessitatibus perferendis molestias vel exercitationem, aperiam qui quidem, tempora nisi explicabo earum id distinctio illo blanditiis! Doloribus, temporibus eveniet qui dicta labore omnis sapiente nulla accusantium iste!</p>
+        </section>
+        <section id="sec3">
+            <h1>ギャラリー</h1>
+            <div class="gallery">
+                <img src="img/news_kabocha-motblanc-tart-01.jpeg" alt="">
+                <img src="img/Raspberry_tart.jpeg" alt="">
+                <img src="img/berry-tart.jpeg" alt="">
+            </div>
+            <div class="box">
+                <p>テスト</p>
+                <p>テスト</p>
+                <p>テスト</p>
+            </div>
+        </section>
+        <section id="sec4">
+            <h1>Profile</h1>
+            <div class="prof">
+                <img src="./img/news_kabocha-motblanc-tart-01.jpeg" alt="">
+                <div class="profContent">
+                    <p>name:すぬい</p>
+                    <p>nationality:Mongolian</p>
+                    <p>blood type: Ivoly</p>
+                    <p>religion:Oyemicant</p>
+                </div>
+            </div>
+        </section>
+
+    </article>
+<script src="JS/common.js"></script>
+<a href="javascript:twitText()"><img src="twitter-a.png" alt="Send to Twitter" width="61" height="23"></a>
+
+</body>
+
+</html>
